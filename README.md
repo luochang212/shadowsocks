@@ -142,7 +142,13 @@ bash ss.sh
 
 ## 独立动手搭建（方案二，推荐用户：极客，爱折腾的人）
 
-**注意 一定要用 Cent OS7**
+**注意: 一定要用 Cent OS7**
+
+终止防火墙：
+
+```
+systemctl stop firewalld.service
+```
 
 ### 搭建 Shadowsocks 服务
 
